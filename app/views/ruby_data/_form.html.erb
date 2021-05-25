@@ -1,0 +1,27 @@
+<%= form_with(model: ruby_datum) do |form| %>
+  <% if ruby_datum.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(ruby_datum.errors.count, "error") %> prohibited this ruby_datum from being saved:</h2>
+
+      <ul>
+        <% ruby_datum.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :valInput %>
+    <%= form.text_field :valInput %>
+  </div>
+
+  <div class="field">
+    <%= form.label :rubyType %>
+    <%= form.text_field :rubyType %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

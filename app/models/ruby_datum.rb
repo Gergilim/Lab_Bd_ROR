@@ -1,0 +1,2 @@
+class RubyDatum < ApplicationRecord
+end
