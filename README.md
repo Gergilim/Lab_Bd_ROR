@@ -13,7 +13,7 @@ Hoje em dia seu maior uso é para desenvolvimento web em Ruby on Rails e scripti
 
 Ruby segue a filosofia de orientação a objetos de maneira muito estrita, pode-se dizer inclusive que tudo em Ruby é um objeto(mais precisamente qualquer valor que pode ser dado para uma variável ou retornado por um método).
 
-**Linguagem de uso geral?**
+**Linguagem de uso geral? <br/>**
 Sim, você pode fazer qualquer coisa com Ruby, porém não espere a performance de uma linguagem compilada como C.
 
 ## C e Ruby
@@ -33,10 +33,10 @@ A ideia principal deste é seguir o padrão MVC.
 
 O RoR tem seu ORM(object-relational mapping, basicamente um jeito de escrever SQL com a sintaxe da linguaguem de sua escolha) default e assume que você sempre vai usar ele, mas como o foco deste trabalho é apresentar uma DB eu vou falar sobre o SQLite, que é a DB padrão do RoR.
 
-**O que é SQLite?**
+**O que é SQLite? <br/>**
 Como o nome já implica esté é um BD SQL, mas diferente da maioria de seus similares este não funciona nos moldes da interação Client - Server, mas sim "acoplado" na aplicação final, permitindo que esta opere apenas chamando funções da DB em um único processo, visando melhorar a performance.Além disso SQLite ainda segue ACID.
 
-**SQLite vs as 3 outras BDs open-source mais famosas**
+**SQLite vs as 3 outras BDs open-source mais famosas <br/>**
 Quando estamos falando de SQLite, PostgreSQL e MySQL não temos uma escolha clara de qual é melhor, tudo depende do trabalho a ser realizado.
 Alguns pontos importantes na hora de escolher a DB:
 1. SQlite
