@@ -51,3 +51,16 @@ Alguns pontos importantes na hora de escolher a DB:
 3. MySQL
     1. Não tem 100% de compliance com SQL.
     2. Feito pra ser fácil de usar e rápido.
+
+## Links úteis
+
+* https://rspec.info
+* https://github.com/faker-ruby/faker
+* https://rubyonrails.org
+* https://guides.rubyonrails.org/active_record_basics.html
+* https://docs.ruby-lang.org/en/
+* http://ruby-doc.com/docs/ProgrammingRuby/
+* https://www.sqlite.org/docs.html
+* https://www.sqlite.org/whentouse.html
+* https://www.sqlite.org/different.html
+* https://www.sqlite.org/testing.html
