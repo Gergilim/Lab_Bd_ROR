@@ -39,7 +39,7 @@ Como o nome já implica esté é um BD SQL, mas diferente da maioria de seus sim
 **SQLite vs as 3 outras BDs open-source mais famosas <br/>**
 Quando estamos falando de SQLite, PostgreSQL e MySQL não temos uma escolha clara de qual é melhor, tudo depende do trabalho a ser realizado.
 Alguns pontos importantes na hora de escolher a DB:
-1. SQlite
+1. SQLite
     1. Perfomance muito boa
     2. Paralelismo comprometido por somento 1 processo poder alterar a BD ao mesmo tempo.
     3. Não aconselhado para uma aplicação multi-user devido a seu esquema de segurança de acesso a tables.
